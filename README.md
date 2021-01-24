@@ -10,7 +10,7 @@ The intended functionality of the app includes displaying burgers in the databas
 
 ### Usage
 
-To run this application locally, first you must initialize the database using the schema.sql file and then data can be pre-populated using the seeds.sql file. Then
+To run this application locally, first you must initialize the database using the schema.sql file and then data can be pre-populated using the seeds.sql file.
 
 After running node server.js from the command-line, the application should be running at the appropraite local host port.
 
