@@ -1,22 +1,25 @@
 <div class="wrapper">
-    
-    <h1>Eat-Da-Burger!</h1>
+    <div class="center">
 
-    <ul>
-        {{#each burgers}}
-        <li>{{burger_name}}</li>
-        {{/each}}
-    </ul>
+        <img src="/assets/img/cartoon_burger.jpg" alt="burger">
 
-    <h2>Add a Burger</h2>
-    <form class="create-form">
+        <h1>Eat-Da-Burger!</h1>
 
-        <div class="form-group">
-            <textarea name="burger" rows="3"></textarea>
+        <ul>
+            {{#each burgers}}
+            <li>{{id}}. {{burger_name}}</li>
+            {{/each}}
+        </ul>
 
-        </div>
+        <h2>Add a Burger</h2>
+        <form class="create-form">
 
-        <button type="submit">Add Burger</button>
-    </form>
+            <div class="form-group">
+                <textarea name="burger" rows="3"></textarea>
 
+            </div>
+
+            <button type="submit">Add Burger</button>
+        </form>
+    </div>
 </div>
