@@ -9,4 +9,16 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
-  }
+}
+
+body {
+    background-color: #ffdb58;
+}
+
+.red {
+    color: red;
+}
+
+.center-text {
+    text-align: center;
+}
