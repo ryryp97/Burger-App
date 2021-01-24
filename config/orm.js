@@ -12,9 +12,17 @@ const orm = {
       },
     
 
-    insertOne: () => {
-
-    },
+    insertOne: function(table, val, cb) {
+        var queryString = `INSERT INTO ${table} (burger_name) VALUES ("${val}");`;
+    
+        connection.query(queryString, val, function(err, result) {
+          if (err) {
+            throw err;
+          }
+    
+          cb(result);
+        });
+      },
 
     updateOne: () => {
 

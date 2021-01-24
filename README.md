@@ -2,7 +2,7 @@
 
 ### Description 
 
-This repository contains an application that is connected to a MYSQL database and utilizes Handlebars templates to generate HTML.  It was created in order to practice the MVC (Model View Controller) design pattern.
+This repository contains an application that is connected to a MySQL database and utilizes Handlebars templates to generate HTML.  It was created in order to practice the MVC (Model View Controller) design pattern.
 
 Currently, the deployed app to Heroku isn't working, so the only way this application can run is locally.
 
