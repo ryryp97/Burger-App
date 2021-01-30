@@ -4,15 +4,15 @@
 
 This repository contains an application that is connected to a MySQL database and utilizes Handlebars templates to generate HTML.  It was created in order to practice the MVC (Model View Controller) design pattern.
 
-Currently, the deployed app to Heroku isn't working, so the only way this application can run is locally.
-
-The intended functionality of the app includes displaying burgers in the database to the page, the ability to add new burgers to the database, and the ability to update burgers in the database.
+The intended functionality of the app includes displaying burgers in the database to the page, the ability to add new burgers to the database, and the ability to update burgers in the database (not added yet).
 
 ### Usage
 
 To run this application locally, first you must initialize the database using the schema.sql file and then data can be pre-populated using the seeds.sql file.
 
 After running node server.js from the command-line, the application should be running at the appropraite local host port.
+
+Alternatively, you can access the application at this link: [Burger-App](https://stormy-lake-02441.herokuapp.com/)
 
 ### Credits
 
