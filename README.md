@@ -10,7 +10,7 @@ The intended functionality of the app includes displaying burgers in the databas
 
 To run this application locally, first you must initialize the database using the schema.sql file and then data can be pre-populated using the seeds.sql file.
 
-After running node server.js from the command-line, the application should be running at the appropraite local host port.
+After running node server.js from the command-line, the application should be running at the appropriate local host port.
 
 Alternatively, you can access the application at this link: [Burger-App](https://stormy-lake-02441.herokuapp.com/)
 
